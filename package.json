@@ -1,0 +1,19 @@
+{
+	"name": "astar-pathfinding-optimized",
+	"version": "1.0.0",
+	"description": "Optimized A* pathfinding on a 2D grid. Replaces the naive linear-scan open set with a binary-heap priority queue and a best-G map for O(1) closed/best-cost lookups. Benchmarks naive vs optimized implementations.",
+	"main": "src/astar.js",
+	"scripts": {
+		"test": "node test/runner.js",
+		"benchmark": "node benchmark/runner.js",
+		"chart": "node scripts/generate-chart.js"
+	},
+	"keywords": ["astar", "pathfinding", "algorithm", "optimization", "binary-heap", "javascript"],
+	"author": "Kilo",
+	"license": "MIT",
+	"engines": { "node": ">=18" },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/linluozi/kilo-1.git"
+	}
+}

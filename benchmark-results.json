@@ -1,0 +1,57 @@
+[
+  {
+    "grid": "30x30",
+    "rows": 30,
+    "cols": 30,
+    "naiveMs": 1.943881,
+    "optimizedMs": 1.271341,
+    "speedup": 1.53,
+    "nodesExpanded": 197,
+    "pathLen": 59,
+    "pathEqualLength": true
+  },
+  {
+    "grid": "60x60",
+    "rows": 60,
+    "cols": 60,
+    "naiveMs": 3.253412,
+    "optimizedMs": 2.187702,
+    "speedup": 1.49,
+    "nodesExpanded": 455,
+    "pathLen": 119,
+    "pathEqualLength": true
+  },
+  {
+    "grid": "100x100",
+    "rows": 100,
+    "cols": 100,
+    "naiveMs": 11.678261,
+    "optimizedMs": 2.299002,
+    "speedup": 5.08,
+    "nodesExpanded": 852,
+    "pathLen": 199,
+    "pathEqualLength": true
+  },
+  {
+    "grid": "150x150",
+    "rows": 150,
+    "cols": 150,
+    "naiveMs": 22.555589,
+    "optimizedMs": 2.493152,
+    "speedup": 9.05,
+    "nodesExpanded": 1763,
+    "pathLen": 299,
+    "pathEqualLength": true
+  },
+  {
+    "grid": "200x200",
+    "rows": 200,
+    "cols": 200,
+    "naiveMs": 95.074141,
+    "optimizedMs": 8.578238,
+    "speedup": 11.08,
+    "nodesExpanded": 3658,
+    "pathLen": 399,
+    "pathEqualLength": true
+  }
+]
